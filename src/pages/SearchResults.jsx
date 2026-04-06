@@ -46,7 +46,7 @@ function HotelCard({ hotel, naturalQuery, isFirst, aiSummary }) {
       {/* Recommended label */}
       {isRecommended && (
         <div className="absolute -top-3 left-4 z-20 flex items-center gap-1.5 bg-emerald-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
-          Recommended
+          Engine Recommended
         </div>
       )}
 

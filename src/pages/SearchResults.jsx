@@ -204,7 +204,9 @@ function HotelCard({ hotel, naturalQuery, isFirst, aiSummary }) {
               size={12}
               className="inline text-amber-500 mr-1 -mt-0.5"
             />
-            {aiSummary || (
+            {aiSummary ? (
+              <span dangerouslySetInnerHTML={{ __html: aiSummary }} />
+            ) : (
               <span className="inline-flex items-center gap-1">
                 <span className="animate-pulse">Writing summary</span>
                 <span className="animate-bounce" style={{ animationDelay: '0ms' }}>.</span>

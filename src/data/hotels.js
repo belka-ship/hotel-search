@@ -29,7 +29,7 @@ export const hotels = [
       "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=400&h=300&fit=crop",
       "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=400&h=300&fit=crop",
     ],
-    summary: "Loved by 14 of your colleagues for its tranquil, private-club atmosphere — one of the quietest boutique stays in FiDi, with a 24-hour fitness center and steps from Fulton Center. SFERRA linens, marble rain showers, and Felice Ristorante's Tuscan kitchen make this the nicest hotel under GSA rate.",
+    summary: "Loved by 14 of your colleagues for its tranquil, private-club atmosphere — <b>one of the quietest boutique stays</b> in FiDi, with a <b>24-hour fitness center</b> and steps from Fulton Center. SFERRA linens, marble rain showers, and Felice Ristorante's Tuscan kitchen make this <b>the nicest hotel under GSA rate</b>.",
     tags: ["boutique", "quiet", "central"],
   },
   {
